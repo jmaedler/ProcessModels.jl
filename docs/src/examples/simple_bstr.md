@@ -1,4 +1,4 @@
-## Simple Batch Rector
+## Simple Batch Reactor
 
 This is a simple model of an batch stirred tank reactor (BSTR). Assuming a reaction system of
 
