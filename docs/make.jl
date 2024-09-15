@@ -11,9 +11,11 @@ makedocs(;
         canonical="https://jmaedler.github.io/ProcessModels.jl",
         edit_link="main",
         assets=String[],
+        prettyurls = get(ENV, "CI", nothing) == "true", # Modifiziert: für ordentliche lokale Verlinkung
     ),
     pages=[
         "Home" => "index.md",
+        "BSTR" => "examples/simple_bstr.md"
     ],
 )
 
