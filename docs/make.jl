@@ -15,7 +15,8 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
-        "BSTR" => "examples/simple_bstr.md"
+        "BSTR" => "examples/simple_bstr.md",
+        "Virtual Commissioning" => "examples/virtualCommissioningExample.md"
     ],
 )
 
